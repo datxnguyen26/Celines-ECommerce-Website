@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
 html,
 body, * {
   padding: 0;
@@ -67,6 +69,7 @@ width: 100%;
 .logo{
   color: gray;
   font-size: 18px;
+  font-weight: 900;
 
 }
 .cart-icon{
@@ -108,6 +111,7 @@ width: 100%;
   transition: transform 0.5s ease;
   color: #324d67;
   margin: 20px;
+
 
 }
 .product-card:hover{
@@ -762,3 +766,182 @@ margin-top: 160px;
   margin: auto;
 }
 }
+.app__footer {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .app_footer {
+    flex-direction: column;
+  }
+}
+
+.app__footer-cards .app__footer-card:last-child {
+  background-color: #f2f7fb;
+}
+
+.app__footer-cards .app__footer-card:last-child:hover {
+  box-shadow: 0 0 25px #f2f7fb;
+}
+.app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.head-text {
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: #324d67;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.p-text {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #6b7688;
+  line-height: 1.5;
+}
+.app__footer-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em 2rem 2rem;
+}
+
+.app__footer-cards .app__footer-card {
+      min-width: 290px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+  
+      margin: 1rem 1rem;
+      padding: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color: #fef4f5;
+  
+      transition: all 0.3s ease-in-out;
+  
+}
+
+.app__footer-card img{
+  width: 40px;
+  height: 40px;
+  margin: 0 0.7rem;
+}
+
+.app__footer-card p {
+  font-weight: 500;
+}
+
+.app__footer-card a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.app__footer-card a:hover {
+  box-shadow: 0 0 25px #fef4f5;
+}
+
+@media screen and (max-width: 450px) {
+  .app__footer-card {
+    width: 100%
+    
+   
+  }
+}
+@media screen and (max-width: 768px) {
+  .app__footer-cards {
+    width: 100%;
+  }
+}
+
+.app__footer-cards .app__footer-card:last-child {
+    background-color: #f2f7fb;
+  }
+  
+  .app__footer-cards .app__footer-card:last-child:hover {
+    box-shadow: 0 0 25px #f2f7fb;
+  }
+
+  .app__footer-form {
+    width: 100%;
+    flex-direction: column;
+    margin: 1rem 0rem;
+  }
+
+  .app__footer-form div {
+    width: 100%;
+    margin: 0.75rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #edf2f8;
+    transition: all 0.3s ease-in-out;
+    
+  }
+
+  .app__footer-form input {
+    width: 100%;
+    padding: 0.95rem;
+    border: none;
+    border-radius: 7px;
+    background-color: #edf2f8;
+    font-family: "DM Sans", sans-serif;
+    color: #313bac;
+    outline: none;
+  }
+
+  .app__footer-form input:hover {
+    box-shadow: 0 0 25px #edf2f8
+  }
+
+  .app__footer-form textarea {
+    width: 100%;
+    padding: 0.95rem;
+    border: none;
+    border-radius: 7px;
+    background-color: #edf2f8;
+    font-family: "DM Sans", sans-serif;
+    color: #313bac;
+    outline: none; 
+    height: 300px;
+  }
+
+  .app__footer-form textarea:hover {
+    box-shadow: 0 0 25px #edf2f8;
+  }
+
+  .app__footer-form button {
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #313bac;
+  
+      font-weight: 500;
+      color: #ffffff;
+      outline: none;
+      margin: 2rem 0 0 0;
+      font-family: "DM Sans", sans-serif;
+  
+      transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+      cursor: pointer;
+  }
+
+  .app__footer-form button:hover {
+    background-color: #2430af;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .app__footer-form {
+      width: 100%;
+      margin: 1rem 0;
+    }
+  }
+
+  
