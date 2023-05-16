@@ -6,10 +6,9 @@ export default {
        {
            name: 'image',
            title: 'Image',
-           type: 'array',
-           of: [{ type: 'image'}],
+           type: 'image',
            options: {
-               hotspot: true,
+            hotspot: true
            } 
        },
        {
@@ -29,7 +28,7 @@ export default {
        {
            name: 'price',
            title: 'Price',
-           type: 'number',
+           type: 'string',
        },
        {
            name: 'details',
