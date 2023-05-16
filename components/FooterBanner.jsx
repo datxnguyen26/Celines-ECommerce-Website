@@ -42,10 +42,10 @@ const FooterBanner = () => {
       <div className="app__footer-cards">
         
         <div className="app__footer-card ">
-          <a href="https://www.facebook.com/profile.php?id=100014705834221">
+          <a href="https://www.facebook.com/profile.php?id=100014705834221" target="_blank">
           <img src={facebook} alt="facebook" />
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100014705834221" className="p-text">Katie Vo</a>
+          <a href="https://www.facebook.com/profile.php?id=100014705834221" target="_blank" className="p-text">Katie Vo</a>
         </div>
         
         <div className="app__footer-card">
@@ -73,7 +73,7 @@ const FooterBanner = () => {
               onChange={handleChangeInput}
             />
           </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
+          <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Order' : 'Sending...'}</button>
         </div>
       ) : (
         <div>
