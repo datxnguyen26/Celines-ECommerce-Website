@@ -10,7 +10,7 @@ const ProductDetails = ({ product, products }) => {
         <div className="product-detail-container">
             <div>
                 <div className="image-container">
-                    <img src={urlFor(image && image[0])} width={450} height={450} />
+                    <img src={urlFor(image)} width={450} height={450} />
                 </div>
                 {/*<div className="small-images-container">
                     {image?.map((item, index) => (
@@ -31,7 +31,7 @@ const ProductDetails = ({ product, products }) => {
             
                 <h4>Details: </h4>
                 <p>{details}</p>
-                <p className="price">${price}</p>
+                <p className="price">{price}</p>
                {/* <div className="quantity">
                     <h3>Quantity:</h3>
                     <p className="quantity-desc">
