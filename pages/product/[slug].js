@@ -20,14 +20,15 @@ const ProductDetails = ({ product, products }) => {
             </div>
             <div className="product-detail-desc">
                 <h1>{name}</h1>
-                <div className="reviews">
+                {/*<div className="reviews">
                     <AiFillStar />
                     <AiFillStar />
                     <AiFillStar />
                     <AiFillStar />
                     <AiOutlineStar />
                     <p>102</p>
-                </div>
+            </div> */}
+            
                 <h4>Details: </h4>
                 <p>{details}</p>
                 <p className="price">${price}</p>
