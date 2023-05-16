@@ -135,8 +135,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/002/326/334/original/gradient-light-color-background-graphic-free-vector.jpg);
-  background-color: #dcdcdc;
+  background-image: url("../constants/background.png");
   border-radius: 15px;
   position: relative;
   height: 500px;
