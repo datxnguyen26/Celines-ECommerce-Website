@@ -4,7 +4,7 @@ import { AiFillFacebook } from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>2022 Celine's Desserts All rights reserved</p>
+      <p>2023 Celine's Desserts | All rights reserved</p>
      
     </div>
   )
