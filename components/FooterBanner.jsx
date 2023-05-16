@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { AiFillFacebook } from 'react-icons/ai';
 import { client } from '../client';
 import logo from '../public/mobile.png';
-import { mobile, facebook } from '../constants/images'
 
 const FooterBanner = () => {
   const [formData, setFormData] = useState({ name: '', phone: '', option: '', orders: '' });
@@ -43,13 +42,13 @@ const FooterBanner = () => {
         
         <div className="app__footer-card ">
           <a href="https://www.facebook.com/profile.php?id=100014705834221" target="_blank">
-          <img src={facebook} alt="facebook" />
+          <img src="/facebook.png" alt="facebook" height={40} width={40} />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100014705834221" target="_blank" className="p-text">Katie Vo</a>
         </div>
         
         <div className="app__footer-card">
-          <img src={mobile} alt="phone" />
+          <img src="/mobile.png" alt="phone" height={40} width={40} />
           <a href="tel:+1 (909) 569-8093" className="p-text">+1 (909) 569-8093</a>
         </div>
       </div>
