@@ -1,11 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 import { urlFor } from '../client'
-import background from '../constants/background.png'
 
 const HeroBanner = ({ heroBanner }) => {
   return (
-    <div className="hero-banner-container" style={{backgroundImage: background}}>
+    <div className="hero-banner-container" style={{backgroundImage: `url("/background.png")`}}>
         <p className="beats-solo">{heroBanner.smallText}</p>
         <h3>{heroBanner.midText}</h3>
         <h1>{heroBanner.largeText1}</h1>
