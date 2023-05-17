@@ -54,6 +54,8 @@ const FooterBanner = () => {
       </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
+          <h2 style={{color: 'red'}}>Orders made before Saturday will be available for pick-up/delivered on Sunday</h2>
+          <h2 style={{color: 'red'}}>Orders after Saturday will be available the following Sunday</h2>
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
           </div>
@@ -61,12 +63,12 @@ const FooterBanner = () => {
             <input className="p-text" type="phone" placeholder="Your phone number" name="phone" value={phone} onChange={handleChangeInput} />
           </div>
           <div className="app__flex">
-            <textarea className="p-text" style={{height: 260}} placeholder="How would you like to receive the product?&#10;Option 1. Pick up at Garden Grove Mall&#10;Option 2. Deliver to your house if you live in the OC or Ontario area&#10;Please provide your address if you select option 2" name="option" value={option} onChange={handleChangeInput} />
+            <textarea className="p-text" style={{height: 260}} placeholder="How would you like to receive the product?&#10;Option 1. Pick up at Garden Grove Mall&#10;Option 2. Deliver to your house if you live around the OC or Montclair/Ontario area&#10;Please provide your address if you select option 2" name="option" value={option} onChange={handleChangeInput} />
           </div>
           <div>
             <textarea
               className="p-text"
-              placeholder="Your Orders&#10;Example:&#10;3x Coconut Jelly (cup)&#10;5x Coconut Jelly (fruit)&#10;20x Flan&#10;..."
+              placeholder="Your Orders&#10;Example:&#10;3x Coconut Jelly (cup)&#10;5x Coconut Jelly (fruit)&#10;20x Flan&#10;etc..."
               value={orders}
               name="orders"
               onChange={handleChangeInput}
