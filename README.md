@@ -16,7 +16,7 @@ The page is being deployed on <a href="https://socialmemories.netlify.app" targe
 <br />
 ![Next](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 <br />
-<img src="images/sanity.io.png" alt="Sanity logo" width="97" height="28"/>
+<img src="images/sanity.io.png" alt="Sanity logo" width="90" height="28"/>
 <br />
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
