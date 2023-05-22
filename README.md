@@ -2,7 +2,7 @@
 <br />
 <h1>CELINE'S DESSERTS</h1>
 <div align="center">
-    <img src="images/celine.png" alt="Logo" width="1240" height="600">
+    <img src="images/celine.png" alt="Logo" width="1240" height="600" />
 </div>
 
 <!-- ABOUT THE PROJECT -->
@@ -16,7 +16,7 @@ The page is being deployed on <a href="https://socialmemories.netlify.app" targe
 <br />
 ![Next](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 <br />
-![MongoDB](https://www.pngitem.com/middle/Jwoboh_sanity-io-logo-png-transparent-png/)
+<img src="images/sanity.io.png" alt="Sanity logo" />
 <br />
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
