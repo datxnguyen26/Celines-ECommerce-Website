@@ -2,7 +2,7 @@
 <br />
 <h1>CELINE'S DESSERTS</h1>
 <div align="center">
-    <img src="images/Memories.png" alt="Logo" width="1240" height="641">
+    <img src="images/celine.png" alt="Logo" width="1140" height="600">
 </div>
 
 <!-- ABOUT THE PROJECT -->
