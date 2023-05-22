@@ -18,7 +18,7 @@ The page is being deployed on <a href="https://socialmemories.netlify.app" targe
 <br />
 <img src="images/sanity.io.png" alt="Sanity logo" width="90" height="28"/>
 <br />
-<img src="https://gorzelinski.com/static/1db41e3ecd311724a15306b270d99dd9/6e87d/next-js-logo.png](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/2560px-Nextjs-logo.svg.png" width="95" height="28" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/2560px-Nextjs-logo.svg.png" width="95" height="28" />
 
 <!-- GETTING STARTED -->
 ## Getting Started
