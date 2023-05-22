@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<h1>CELINE'S DESSERTS</h1>
+<div align="center">
+    <img src="images/celine.png" alt="Logo" width="1240" height="600" />
+</div>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p>Memories is a MERN stack project and it is a social media app where user can make post, delete posts, and like posts. Currently, there is no user authentication function and it is being build at the moment using GoogleAuth.
+The page is being deployed on <a href="https://socialmemories.netlify.app" target='_blank'>Netlify</a></p>
+
+### Built With
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+<br />
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+<br />
+<img src="images/sanity.io.png" alt="Sanity logo" width="90" height="28"/>
+<br />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/2560px-Nextjs-logo.svg.png" width="95" height="28" />
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+You can either view this app using the deployment link or the follow the steps below to run it in your local environment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install --legacy-peer-deps
+   ```
+3. Change the baseUrl in /client/src/api/index.js from Heroku to your localhost port for the backend
+   ```js
+   const API = axios.create({ baseURL: 'http://localhost:YOUR-PORT-NUMBER' });
+   ```
+4. Change the script of /server/package.json
+   ```js
+   "scripts": {
+       "start": "nodemon index.js"
+   }
+   ```   
+5. Run the back end server
+   ```sh
+   npm start
+   ```
+6. Run the front end page
+   ```sh
+   npm start
+   ```
+<!-- USAGE EXAMPLES -->
+## Usage
+To start using the social media page, you can fill in the form to the left with all the information and hit submit. The user can delete, like a post and edit a post that they recently published.
