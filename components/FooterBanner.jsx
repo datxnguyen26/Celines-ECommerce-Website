@@ -49,13 +49,16 @@ const FooterBanner = () => {
         
         <div className="app__footer-card">
           <img src="/mobile.png" alt="phone" height={40} width={40} />
-          <a href="tel:+1 (909) 569-8093" className="p-text">+1 (909) 569-8093</a>
+          <a href="tel:+1 (909) 569-8093" className="p-text">+1 (909) 630-8862</a>
         </div>
       </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
-          <h2 style={{color: 'red'}}>Orders made before Saturday will be available for pick-up/delivered on Sunday</h2>
-          <h2 style={{color: 'red'}}>Orders after Saturday will be available the following Sunday</h2>
+          <h2 style={{color: 'red'}}>We are currently only accepting orders for pick-up or delivery.</h2>
+          <h2 style={{color: 'red'}}>Orders are ready to be picked-up or delivered on Saturday/Sunday if the order is made 2 days before the pick-up date.</h2>
+          <h2 style={{color: 'red'}}>PAY WHEN YOU RECEIVE THE PRODUCT!!!</h2>
+   
+   
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
           </div>
@@ -63,7 +66,7 @@ const FooterBanner = () => {
             <input className="p-text" type="phone" placeholder="Your phone number" name="phone" value={phone} onChange={handleChangeInput} />
           </div>
           <div className="app__flex">
-            <textarea className="p-text" style={{height: 260}} placeholder="How would you like to receive the product?&#10;Option 1. Pick up at Garden Grove Mall&#10;Option 2. Deliver to your house if you live around the OC or Montclair/Ontario area&#10;Please provide your address if you select option 2" name="option" value={option} onChange={handleChangeInput} />
+            <textarea className="p-text" style={{height: 260}} placeholder="How would you like to receive the product?&#10;Option 1. Pick up at 4742 Canoga St. Apt 4, Montclair, CA 91763. (Please specify the time for pick-up)&#10;Option 2. Deliver to your house if you live around the OC or Montclair/Ontario area.&#10;Please provide your address if you select option 2." name="option" value={option} onChange={handleChangeInput} />
           </div>
           <div>
             <textarea
@@ -82,7 +85,7 @@ const FooterBanner = () => {
             Thank you for your purchase!
           </h2>
           <h5 className="head-text">
-            We will send out a confirmation text message shortly
+            We will send out a confirmation text message shortly.
           </h5>
         </div>
       )}

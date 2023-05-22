@@ -5,8 +5,9 @@ import { AiOutlineShopping } from 'react-icons/ai'
 const Navbar = () => {
   return (
     <div className="navbar-container">
+      <img class="logo-img" src="/logopic.png" width="100" height="100"/>
       <p className="logo">
-        <Link href="/">CELINE'S DESSERTS</Link>
+        <Link href="/">CELINE'S&nbsp;DESSERTS</Link>
       </p>
       {/*<button type="button" className="cart-icon" onClick="">
         <AiOutlineShopping />
