@@ -14,9 +14,9 @@ The page is being deployed on <a href="https://socialmemories.netlify.app" targe
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 <br />
-![Next](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Next](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 <br />
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white](https://www.pngitem.com/middle/Jwoboh_sanity-io-logo-png-transparent-png/)
+![MongoDB](https://www.pngitem.com/middle/Jwoboh_sanity-io-logo-png-transparent-png/)
 <br />
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
