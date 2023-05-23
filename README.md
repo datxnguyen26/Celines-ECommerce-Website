@@ -2,13 +2,13 @@
 <br />
 <h1>CELINE'S DESSERTS</h1>
 <div align="center">
-    <img src="images/celine.png" alt="Logo" width="1240" height="600" />
+    <img src="images/celine2.png" alt="Logo" width="1340" height="600" />
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p>Memories is a MERN stack project and it is a social media app where user can make post, delete posts, and like posts. Currently, there is no user authentication function and it is being build at the moment using GoogleAuth.
-The page is being deployed on <a href="https://socialmemories.netlify.app" target='_blank'>Netlify</a></p>
+<p>
+The page is being deployed on <a href="https://celines-e-commerce-website.vercel.app/" target='_blank'>Vercel</a></p>
 
 ### Built With
 
