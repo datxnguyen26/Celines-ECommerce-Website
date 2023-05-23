@@ -49,7 +49,7 @@ const FooterBanner = () => {
         
         <div className="app__footer-card">
           <img src="/mobile.png" alt="phone" height={40} width={40} />
-          <a href="tel:+1 (909) 569-8093" className="p-text">+1 (909) 630-8862</a>
+          <a href="tel:+1 (909) 630-8828 " className="p-text">+1 (909) 630-8828</a>
         </div>
       </div>
       {!isFormSubmitted ? (
@@ -66,7 +66,7 @@ const FooterBanner = () => {
             <input className="p-text" type="phone" placeholder="Your phone number" name="phone" value={phone} onChange={handleChangeInput} />
           </div>
           <div className="app__flex">
-            <textarea className="p-text" style={{height: 260}} placeholder="How would you like to receive the product?&#10;Option 1. Pick up at 4742 Canoga St. Apt 4, Montclair, CA 91763. (Please specify the time for pick-up)&#10;Option 2. Deliver to your house if you live around the OC or Montclair/Ontario area.&#10;Please provide your address if you select option 2." name="option" value={option} onChange={handleChangeInput} />
+            <textarea className="p-text" style={{height: 260}} placeholder="How would you like to receive the product?&#10;Option 1. Pick up at 4742 Canoga St. Apt 4, Montclair, CA 91763. (Please specify the time and date for pick-up)&#10;Option 2. Deliver to your house if you live around the OC or Montclair/Ontario area.&#10;Please provide your address and date of delivery (Saturday or Sunday) if you select option 2." name="option" value={option} onChange={handleChangeInput} />
           </div>
           <div>
             <textarea
@@ -85,7 +85,7 @@ const FooterBanner = () => {
             Thank you for your purchase!
           </h2>
           <h5 className="head-text">
-            We will send out a confirmation text message shortly.
+            We will send out a confirmation text message with details of the pick-up/delivery.
           </h5>
         </div>
       )}
